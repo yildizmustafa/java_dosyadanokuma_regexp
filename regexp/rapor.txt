@@ -1,0 +1,19 @@
+Ödev öncelikle dosya okuma iþlemiyle baþlýyor. Dosya okumanýn birden fazla metodu var
+fakat ödevde istenilenlerin yapýlabilmesi için okunan dosyanýn string tipinde olmasý
+gerekiyor. Bunun için readFileAsString ile dosya okuttum. String str nesnesine program.java
+dosyasýný atadým.
+Daha sonra programda en üst satýrda bulunan paket ve açýklama satýrlarýyla alakalý bir iþlem
+yapýlmayacaðýndan indexof metodu ile gerekli indexleri buldum ve iki index arasýný
+stringbuilder sýnýfý ile sildim. Trim metodu ile baþlarda ve sonlarda bulunan satýrlarý sildim. Ve
+daha sonra boþluða göre split metodu ile mevcut stringi parçalanmýþ þekilde bir diziye attým.
+Ve Startswith metodu ile belirli aramalarý yaptým.
+KULLANDIÐIM METODLAR VE SINIFLAR
+readFileAsString : Dosya okuma iþlemi için
+trim(): String ifadenin baþýndaki ve sonundaki boþluklarý silmek için
+Split():Stringi istenen karaktere göre bölüp dizi oluþturur.
+indexOf():String içerisinde aranýlan karakterin ilk bulunduðu indis deðerini verir
+lastIndexOf():String içerisinde aranýlan karakterin son bulunduðu indis deðerini verir.
+StringBuffer Sýnýfý: Ekleme, silme, ters deðiþtirme gibi string iþlemleri yapýlabiliyor. Ben Belirli
+indis aralýðýndaki ifadeleri Stringden silmek için kullandým.
+.length(): String ifadenin uzunluðunu bulmak için.
+startsWith():Dizi indisleri belirtilen karakterlerle baþlýyor mu kontrolu
