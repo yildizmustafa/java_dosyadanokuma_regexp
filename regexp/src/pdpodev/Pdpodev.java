@@ -3,7 +3,7 @@ import java.nio.file.*;
 /**
 *
 * @author Mustafa YILDIZ
-* mustafa.yildiz9@ogr.sakarya.edu.tr
+
 * @since 11.03.2018
 * 
 * PDP 01 Nolu Odev
